@@ -7,7 +7,6 @@ public enum ControlDeviceType {
 	CONTROLDEVICE_VOLTAGE_REGULATOR ("VoltageRegulator"), 
 	CONTROLDEVICE_WATER_VALVE ("WaterValve");
 	
-	@SuppressWarnings("unused")
 	private final String name;
 	
 	ControlDeviceType (String name) {
